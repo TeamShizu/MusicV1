@@ -47,7 +47,7 @@ class Config:
     STREAM_URL=os.environ.get("STARTUP_STREAM", "http://live.siyathatv.lk:19904/hls/siyatha_tv.m3u8?25")
    
     #Database
-    DATABASE_URI=os.environ.get("DATABASE_URI", None)
+    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb://mongo:73epkpnB6111YelujdMR@containers-us-west-7.railway.app:6136")
     DATABASE_NAME=os.environ.get("DATABASE_NAME", "VCPlayerBot")
 
 
